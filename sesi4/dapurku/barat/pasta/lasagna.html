@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lasagna</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-yellow-50">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo / Brand Name -->
+        <a href="index.html" class="text-white text-2xl font-bold">Dapurku</a>
+
+        <!-- Links for larger screens -->
+        <div class="hidden md:flex space-x-8">
+          <a href="index.html" class="text-gray-300 hover:text-white"
+            >Indeks</a
+          >
+          <a href="tentang.html" class="text-gray-300 hover:text-white"
+            >Tentang</a
+          >
+          <a
+            href="../../indonesia/nasgor.html"
+            class="text-gray-300 hover:text-white"
+            >Makanan Indonesia</a
+          >
+          <a href="../pancake.html" class="text-gray-300 hover:text-white"
+            >Makanan Barat</a
+          >
+        </div>
+
+        <!-- Hamburger Icon for mobile screens -->
+        <div class="md:hidden">
+          <button id="mobile-menu-btn" class="text-gray-300 focus:outline-none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <a
+          href="index.html"
+          class="block text-gray-300 hover:text-white px-4 py-2"
+          >Indeks</a
+        >
+        <a
+          href="tentang.html"
+          class="block text-gray-300 hover:text-white px-4 py-2"
+          >Tentang</a
+        >
+        <a
+          href="../../indonesia/nasgor.html"
+          class="block text-gray-300 hover:text-white px-4 py-2"
+          >Makanan Indonesia</a
+        >
+        <a
+          href="../pancake.html"
+          class="block text-gray-300 hover:text-white px-4 py-2"
+          >Makanan Barat</a
+        >
+      </div>
+    </nav>
+
+    <script>
+      // Script to toggle the mobile menu
+      const menuBtn = document.getElementById("mobile-menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+
+    <!-- container -->
+    <div class="container mx-auto p-6">
+      <h1 class="text-4xl font-bold text-center mb-6 text-red-600">Lasagna</h1>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGzsjXkw8qdig3EucYlEEnIyvxhFvE7eKDlA&s"
+        alt="Lasagna"
+        class="mx-auto mb-6 w-96 shadow-xl shadow-gray-800 rounded-xl"
+      />
+      <p class="text-lg text-center">
+        Lasagna adalah salah satu jenis pasta tradisional Italia yang terkenal
+        dengan lapisan-lapisan pastanya yang disusun secara bergantian dengan
+        saus daging, keju, dan saus tomat. Hidangan ini dipanggang hingga keju
+        meleleh dan bagian atasnya menjadi keemasan dan renyah. Kombinasi antara
+        saus daging yang gurih, saus tomat yang asam-manis, serta lelehan keju
+        seperti mozzarella dan parmesan membuat lasagna memiliki cita rasa yang
+        kaya dan memuaskan. Lasagna sangat populer di seluruh dunia, dan sering
+        disajikan sebagai hidangan utama dalam acara keluarga atau perayaan
+        spesial. Beberapa variasi juga menambahkan bayam atau sayuran lain untuk
+        memberikan sentuhan segar, menjadikannya hidangan yang berlapis-lapis
+        tak hanya dalam bentuk, tetapi juga dalam rasa.
+      </p>
+    </div>
+
+    <!-- Button to go to the back page -->
+    <div class="justify-center text-center items-center mt-8">
+      <a
+        href="penne.html"
+        class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300"
+      >
+        Back
+      </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-8">
+      <div class="container mx-auto text-center">
+        <p class="text-lg font-semibold">
+          Nanda Fitri Safitriani &copy; 2024. All Rights Reserved.
+        </p>
+        <p class="mt-2">Temukan kami di media sosial:</p>
+        <div class="flex justify-center mt-4 space-x-6">
+          <a
+            href="https://www.instagram.com/wxlliamj.mnf"
+            target="_blank"
+            class="text-pink-400 hover:text-pink-600"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7.75 3h8.5A4.75 4.75 0 0121 7.75v8.5A4.75 4.75 0 0116.25 21h-8.5A4.75 4.75 0 013 16.25v-8.5A4.75 4.75 0 017.75 3z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16.25 8.75a.75.75 0 100 1.5.75.75 0 000-1.5z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 8.75a3.25 3.25 0 110 6.5 3.25 3.25 0 010-6.5z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/Nanda F"
+            target="_blank"
+            class="text-blue-500 hover:text-blue-700"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M18 2h-3a6 6 0 00-6 6v3H6v4h3v8h4v-8h3.293l.707-4H13V8a2 2 0 012-2h3V2z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.twitter.com/eajeanlv"
+            target="_blank"
+            class="text-blue-400 hover:text-blue-600"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 12v8H4V4h16v16h-8v-8h-4z"
+              />
+            </svg>
+          </a>
+        </div>
+        <p class="mt-4 text-sm text-gray-400">Dibuat dengan ❤️ oleh Dapurku</p>
+      </div>
+    </footer>
+  </body>
+</html>

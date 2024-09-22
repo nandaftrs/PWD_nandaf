@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pancake</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-blue-50">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <!-- Logo / Brand Name -->
+        <a href="index.html" class="text-white text-2xl font-bold">Dapurku</a>
+
+        <!-- Links for larger screens -->
+        <div class="hidden md:flex space-x-8">
+          <a href="../index.html" class="text-gray-300 hover:text-white"
+            >Indeks</a
+          >
+          <a href="../tentang.html" class="text-gray-300 hover:text-white"
+            >Tentang</a
+          >
+          <a
+            href="../indonesia/nasgor.html"
+            class="text-gray-300 hover:text-white"
+            >Makanan Indonesia</a
+          >
+          <a href="pancake.html" class="text-gray-300 hover:text-white"
+            >Makanan Barat</a
+          >
+        </div>
+
+        <!-- Hamburger Icon for mobile screens -->
+        <div class="md:hidden">
+          <button id="mobile-menu-btn" class="text-gray-300 focus:outline-none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <a
+          href="index.html"
+          class="block text-gray-300 hover:text-white px-4 py-2"
+          >Indeks</a
+        >
+        <a
+          href="tentang.html"
+          class="block text-gray-300 hover:text-white px-4 py-2"
+          >Tentang</a
+        >
+        <a
+          href="../indonesia/nasgor.html"
+          class="block text-gray-300 hover:text-white px-4 py-2"
+          >Makanan Indonesia</a
+        >
+        <a
+          href="pancake.html"
+          class="block text-gray-300 hover:text-white px-4 py-2"
+          >Makanan Barat</a
+        >
+      </div>
+    </nav>
+
+    <script>
+      // Script to toggle the mobile menu
+      const menuBtn = document.getElementById("mobile-menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+
+    <!-- container -->
+    <div class="container mx-auto p-6">
+      <h1 class="text-4xl font-bold text-center mb-6 text-purple-600">
+        Pancake
+      </h1>
+      <img
+        src="https://www.eatthis.com/wp-content/uploads/sites/4/2019/11/whole-grain-pancake-stack.jpg?quality=82&strip=1"
+        alt="Pancake"
+        class="mx-auto mb-6 w-96 rounded-xl shadow-xl shadow-gray-800"
+      />
+      <p class="text-lg text-center mt-10">
+        Pancake adalah salah satu hidangan sarapan khas Barat yang populer
+        karena teksturnya yang lembut dan rasanya yang ringan. Terbuat dari
+        campuran sederhana berupa tepung, telur, dan susu, adonan pancake
+        dimasak di atas wajan hingga berwarna keemasan dan sedikit garing di
+        bagian pinggirnya. Pancake biasanya disajikan dalam tumpukan beberapa
+        lapis, dan diberi tambahan sirup maple yang manis atau berbagai jenis
+        buah segar seperti stroberi, blueberry, atau pisang. Beberapa variasi
+        juga menambahkan mentega cair, whipped cream, atau cokelat untuk
+        menambah kelezatan. Hidangan ini digemari karena fleksibilitasnya, baik
+        sebagai sarapan cepat maupun santapan spesial di pagi hari.
+      </p>
+      <p class="text-lg mt-10 mb-2">
+        Berikut ini merupakan beberapa pasta yang tidak kalah lezat untuk
+        dinikmati
+      </p>
+
+      <div class="grid grid-cols-3 gap-4 mt-6">
+        <a
+          href="pasta/spaghetti.html"
+          class="block p-4 bg-yellow-200 text-center font-semibold"
+          >Spaghetti
+        </a>
+        <a
+          href="pasta/penne.html"
+          class="block p-4 bg-blue-200 text-center font-semibold"
+          >Penne</a
+        >
+        <a
+          href="pasta/lasagna.html"
+          class="block p-4 bg-blue-200 text-center font-semibold"
+          >Lasagna</a
+        >
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-8">
+      <div class="container mx-auto text-center">
+        <p class="text-lg font-semibold">
+          Nanda Fitri Safitriani &copy; 2024. All Rights Reserved.
+        </p>
+        <p class="mt-2">Temukan kami di media sosial:</p>
+        <div class="flex justify-center mt-4 space-x-6">
+          <a
+            href="https://www.instagram.com/wxlliamj.mnf"
+            target="_blank"
+            class="text-pink-400 hover:text-pink-600"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7.75 3h8.5A4.75 4.75 0 0121 7.75v8.5A4.75 4.75 0 0116.25 21h-8.5A4.75 4.75 0 013 16.25v-8.5A4.75 4.75 0 017.75 3z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16.25 8.75a.75.75 0 100 1.5.75.75 0 000-1.5z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 8.75a3.25 3.25 0 110 6.5 3.25 3.25 0 010-6.5z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/Nanda F"
+            target="_blank"
+            class="text-blue-500 hover:text-blue-700"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M18 2h-3a6 6 0 00-6 6v3H6v4h3v8h4v-8h3.293l.707-4H13V8a2 2 0 012-2h3V2z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.twitter.com/eajeanlv"
+            target="_blank"
+            class="text-blue-400 hover:text-blue-600"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 12v8H4V4h16v16h-8v-8h-4z"
+              />
+            </svg>
+          </a>
+        </div>
+        <p class="mt-4 text-sm text-gray-400">Dibuat dengan ❤️ oleh Dapurku</p>
+      </div>
+    </footer>
+  </body>
+</html>

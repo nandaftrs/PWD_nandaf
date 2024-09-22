@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .header {
+        background-color: #f3d8d8;
+        height: 100px;
+        text-align: center;
+        padding: 20px;
+      }
+      .logo {
+        float: left;
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        text-align: center;
+        line-height: 100px;
+        color: white;
+        font-size: 20px;
+      }
+      .nav-search-wrapper {
+        display: flex;
+        justify-content: space-between;
+        background-color: lightgreen;
+        height: 40px;
+        align-items: center;
+        padding: 0 10px;
+      }
+      .nav {
+        background-color: lightgreen;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        flex: 1;
+      }
+      .search {
+        background-color: purple;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+        width: 30%;
+      }
+      .content {
+        background-color: red;
+        height: 400px;
+        width: 75%;
+        float: left;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        line-height: 400px;
+      }
+      .sidebar {
+        background-color: yellow;
+        height: 400px;
+        width: 20%;
+        float: right;
+        text-align: center;
+        line-height: 400px;
+        font-size: 20px;
+      }
+      .footer {
+        background-color: lightgreen;
+        height: 60px;
+        clear: both;
+        text-align: center;
+        line-height: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">LOGO</div>
+    <div class="header">Header</div>
+
+    <div class="nav-search-wrapper">
+      <div class="nav">Navigasi</div>
+      <div class="search">Search</div>
+    </div>
+
+    <div class="content">Konten</div>
+
+    <div class="sidebar">Sidebar</div>
+
+    <div class="footer">Footer</div>
+  </body>
+</html>
