@@ -4,19 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script> -->
     <title>Dapurku</title>
   </head>
   <body class="bg-gray-100">
-    
     <!-- Navbar -->
     <div class="navbar">
-      <!-- Navbar -->
-      <nav class="bg-gray-800 p-4">
+      <nav class="bg-gradient-to-r from-blue-500 to-red-500 p-4">
         <div class="container mx-auto flex justify-between items-center">
           <!-- Logo / Brand Name -->
-          <a href="index.html" class="text-white text-2xl font-bold"
-            >Dapurku</a
-          >
+          <a href="index.html" class="text-white text-2xl font-bold">Dapurku</a>
 
           <!-- Links for larger screens -->
           <div class="hidden md:flex space-x-8">
@@ -26,10 +30,16 @@
             <a href="tentang.html" class="text-gray-300 hover:text-white"
               >Tentang</a
             >
-            <a href="../dapurku/indonesia/nasgor.html" class="text-gray-300 hover:text-white"
+            <a
+              href="../dapurku/indonesia/nasgor.html"
+              class="text-gray-300 hover:text-white"
               >Makanan Indonesia</a
             >
-            <a href="../dapurku/barat/pancake.html" class="text-gray-300 hover:text-white">Makanan Barat</a>
+            <a
+              href="../dapurku/barat/pancake.html"
+              class="text-gray-300 hover:text-white"
+              >Makanan Barat</a
+            >
           </div>
 
           <!-- Hamburger Icon for mobile screens -->
@@ -68,10 +78,14 @@
             class="block text-gray-300 hover:text-white px-4 py-2"
             >Tentang</a
           >
-          <a href="../dapurku/indonesia/nasgor.html" class="block text-gray-300 hover:text-white px-4 py-2"
+          <a
+            href="../dapurku/indonesia/nasgor.html"
+            class="block text-gray-300 hover:text-white px-4 py-2"
             >Makanan Indonesia</a
           >
-          <a href="../dapurku/barat/pancake.html" class="block text-gray-300 hover:text-white px-4 py-2"
+          <a
+            href="../dapurku/barat/pancake.html"
+            class="block text-gray-300 hover:text-white px-4 py-2"
             >Makanan Barat</a
           >
         </div>
@@ -96,33 +110,46 @@
         Selamat Datang di Dapurku
       </h1>
       <p class="text-center text-lg mb-10 mt-5">
-        Jelajahi berbagai resep makanan Nusantara dan Barat! Jelajahi kelezatan
-        kuliner Nusantara dan Barat melalui ragam resep yang menggugah selera!
-        Dari keotentikan bumbu rempah Nusantara yang kaya rasa hingga kelezatan
-        sajian Barat yang elegan, setiap hidangan menghadirkan pengalaman cita
-        rasa yang tak terlupakan. Temukan cara memasak masakan Indonesia seperti
-        pecel, nasi goreng, dan rawon, serta kreasi Western favorit seperti
-        pasta, hingga dessert manis. Dengan resep-resep yang praktis dan mudah
-        diikuti, Anda bisa membawa keajaiban dapur ke meja makan, memanjakan
-        lidah keluarga dan teman-teman dengan hidangan istimewa setiap hari!
+        Jelajahi berbagai resep makanan Nusantara dan Barat yang kaya akan cita
+        rasa! Temukan kelezatan kuliner tradisional Indonesia dengan bumbu-bumbu
+        khasnya. Nikmati pula variasi masakan Barat yang elegan dan lezat.
+        Setiap resep menghadirkan kombinasi bahan yang menggugah selera dan
+        mudah diikuti. Rasakan petualangan kuliner tanpa batas dari dapur Anda
+        sendiri!
       </p>
-      <div class="grid grid-cols-2 gap-4">
-        <p class="text-center text-lg">
-          Pilihan makanan Indonesia dengan berbagai khas budaya yang berbeda.
-        </p>
-        <p class="text-center text-lg">
-          Pilihan makanan Western/Barat dengan pilihan yang beragam
-        </p>
-        <a
-          href="indonesia/nasgor.html"
-          class="block p-4 bg-yellow-200 text-center font-semibold"
-          >Makanan Indonesia
-        </a>
-        <a
-          href="barat/pancake.html"
-          class="block p-4 bg-blue-200 text-center font-semibold"
-          >Makanan Barat</a
-        >
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="text-center mb-4 text-lg">
+          <p class="mb-4">
+            Pilihan makanan Indonesia dengan berbagai khas budaya yang berbeda.
+          </p>
+          <a
+            href="indonesia/nasgor.html"
+            class="block p-4 bg-blue-200 shadow-lg rounded-lg transform transition-transform hover:scale-105"
+          >
+            <img
+              src="https://asset.kompas.com/crops/ZxkpF8bAqYKIXbsr_abBGyY2hyw=/0x0:780x520/750x500/data/photo/2021/02/25/6037b6fb51bdd.jpg"
+              alt="Makanan Indonesia"
+              class="mx-auto mb-4 w-50 h-48 object-cover rounded-lg"
+            />
+            Makanan Indonesia
+          </a>
+        </div>
+        <div class="text-center text-lg">
+          <p class="mb-4">
+            Pilihan makanan Western/Barat dengan pilihan yang beragam.
+          </p>
+          <a
+            href="barat/pancake.html"
+            class="block p-4 bg-violet-300 shadow-lg rounded-lg transform transition-transform hover:scale-105"
+          >
+            <img
+              src="https://www.goldendragonhouseware.com/timthumb.php?src=files/recipe/Q39zD-7-resep-western-food-ala-rumahan-yang-bisa-kamu-recook.jpg&w=870&h=470&zc=1"
+              alt="Makanan Barat"
+              class="mx-auto mb-4 w-50 h-48 object-cover rounded-lg"
+            />
+            Makanan Barat
+          </a>
+        </div>
       </div>
     </div>
 
@@ -139,72 +166,21 @@
             target="_blank"
             class="text-pink-400 hover:text-pink-600"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M7.75 3h8.5A4.75 4.75 0 0121 7.75v8.5A4.75 4.75 0 0116.25 21h-8.5A4.75 4.75 0 013 16.25v-8.5A4.75 4.75 0 017.75 3z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M16.25 8.75a.75.75 0 100 1.5.75.75 0 000-1.5z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 8.75a3.25 3.25 0 110 6.5 3.25 3.25 0 010-6.5z"
-              />
-            </svg>
+            <i class="fab fa-instagram fa-2x"></i>
           </a>
           <a
-            href="https://www.facebook.com/Nanda F"
+            href="https://wa.me/6289675827491"
             target="_blank"
-            class="text-blue-500 hover:text-blue-700"
+            class="text-green-500 hover:text-green-700"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M18 2h-3a6 6 0 00-6 6v3H6v4h3v8h4v-8h3.293l.707-4H13V8a2 2 0 012-2h3V2z"
-              />
-            </svg>
+            <i class="fab fa-whatsapp fa-2x"></i>
           </a>
           <a
             href="https://www.twitter.com/eajeanlv"
             target="_blank"
             class="text-blue-400 hover:text-blue-600"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M8 12v8H4V4h16v16h-8v-8h-4z"
-              />
-            </svg>
+            <i class="fab fa-twitter fa-2x"></i>
           </a>
         </div>
         <p class="mt-4 text-sm text-gray-400">Dibuat dengan ❤️ oleh Dapurku</p>

@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penne</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body class="bg-blue-50">
     <!-- Navbar -->
-    <nav class="bg-gray-800 p-4">
+    <nav class="bg-gradient-to-r from-blue-500 to-red-500 p-4">
       <div class="container mx-auto flex justify-between items-center">
         <!-- Logo / Brand Name -->
         <a href="index.html" class="text-white text-2xl font-bold">Dapurku</a>
@@ -91,7 +95,7 @@
       <img
         src="https://www.wellseasonedstudio.com/wp-content/uploads/2023/03/Penne-pasta-with-pomodoro-sauce-in-a-bowl-with-basil-and-Parmesan-cheese-500x500.jpg"
         alt="Penne"
-        class="mx-auto mb-6 w-96 shadow-xl shadow-gray-800 rounded-xl"
+        class="mx-auto mb-6 w-96 shadow-xl shadow-orange-800 rounded-xl"
       />
       <p class="text-lg text-center mt-10 mb-6">
         Penne adalah pasta berbentuk tabung pendek yang berasal dari Italia,
@@ -110,22 +114,25 @@
     </div>
 
     <!-- Button to go to the next page -->
-    <div class="button grid grid-cols-2">
-      <div class="justify-center text-center items-center mt-8">
+    <!-- Button -->
+    <div class="flex justify-center items-center mt-8 space-x-4">
+      <!-- Tombol Back -->
+      <div>
         <a
-          href="spaghetti.html"
-          class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300"
+          href="lasagna.html"
+          class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full transition duration-300"
         >
-          Back
+          Kembali
         </a>
       </div>
 
-      <div class="justify-center text-center items-center mt-8">
+      <!-- Tombol Next -->
+      <div>
         <a
-          href="lasagna.html"
-          class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300"
+          href="../pasta/spaghetti.html"
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300"
         >
-          Next
+          Halaman Selanjutnya
         </a>
       </div>
     </div>
@@ -143,72 +150,21 @@
             target="_blank"
             class="text-pink-400 hover:text-pink-600"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M7.75 3h8.5A4.75 4.75 0 0121 7.75v8.5A4.75 4.75 0 0116.25 21h-8.5A4.75 4.75 0 013 16.25v-8.5A4.75 4.75 0 017.75 3z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M16.25 8.75a.75.75 0 100 1.5.75.75 0 000-1.5z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 8.75a3.25 3.25 0 110 6.5 3.25 3.25 0 010-6.5z"
-              />
-            </svg>
+            <i class="fab fa-instagram fa-2x"></i>
           </a>
           <a
-            href="https://www.facebook.com/Nanda F"
+            href="https://wa.me/6289675827491"
             target="_blank"
-            class="text-blue-500 hover:text-blue-700"
+            class="text-green-500 hover:text-green-700"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M18 2h-3a6 6 0 00-6 6v3H6v4h3v8h4v-8h3.293l.707-4H13V8a2 2 0 012-2h3V2z"
-              />
-            </svg>
+            <i class="fab fa-whatsapp fa-2x"></i>
           </a>
           <a
             href="https://www.twitter.com/eajeanlv"
             target="_blank"
             class="text-blue-400 hover:text-blue-600"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M8 12v8H4V4h16v16h-8v-8h-4z"
-              />
-            </svg>
+            <i class="fab fa-twitter fa-2x"></i>
           </a>
         </div>
         <p class="mt-4 text-sm text-gray-400">Dibuat dengan ❤️ oleh Dapurku</p>

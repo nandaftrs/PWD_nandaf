@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pancake</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body class="bg-blue-50">
     <!-- Navbar -->
-    <nav class="bg-gray-800 p-4">
+    <nav class="bg-gradient-to-r from-blue-500 to-red-500 p-4">
       <div class="container mx-auto flex justify-between items-center">
         <!-- Logo / Brand Name -->
         <a href="index.html" class="text-white text-2xl font-bold">Dapurku</a>
@@ -95,7 +99,7 @@
       <img
         src="https://www.eatthis.com/wp-content/uploads/sites/4/2019/11/whole-grain-pancake-stack.jpg?quality=82&strip=1"
         alt="Pancake"
-        class="mx-auto mb-6 w-96 rounded-xl shadow-xl shadow-gray-800"
+        class="mx-auto mb-6 w-96 rounded-xl shadow-xl shadow-blue-800"
       />
       <p class="text-lg text-center mt-10">
         Pancake adalah salah satu hidangan sarapan khas Barat yang populer
@@ -109,27 +113,65 @@
         menambah kelezatan. Hidangan ini digemari karena fleksibilitasnya, baik
         sebagai sarapan cepat maupun santapan spesial di pagi hari.
       </p>
-      <p class="text-lg mt-10 mb-2">
+      <p class="text-lg mt-10 text-center mb-2">
         Berikut ini merupakan beberapa pasta yang tidak kalah lezat untuk
         dinikmati
       </p>
 
-      <div class="grid grid-cols-3 gap-4 mt-6">
-        <a
-          href="pasta/spaghetti.html"
-          class="block p-4 bg-yellow-200 text-center font-semibold"
-          >Spaghetti
-        </a>
-        <a
-          href="pasta/penne.html"
-          class="block p-4 bg-blue-200 text-center font-semibold"
-          >Penne</a
-        >
-        <a
-          href="pasta/lasagna.html"
-          class="block p-4 bg-blue-200 text-center font-semibold"
-          >Lasagna</a
-        >
+      <!-- Button Group -->
+      <div class="flex justify-center items-center mt-8 space-x-4">
+        <!-- Tombol Option 1 -->
+        <div>
+          <a
+            href="../barat/pasta/lasagna.html"
+            class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full transition duration-300"
+          >
+            Lasagna
+          </a>
+        </div>
+
+        <!-- Tombol Option 2 -->
+        <div>
+          <a
+            href="../barat/pasta/penne.html"
+            class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full transition duration-300"
+          >
+            Penne
+          </a>
+        </div>
+
+        <!-- Tombol Option 3 -->
+        <div>
+          <a
+            href="../barat/pasta/spaghetti.html"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300"
+          >
+            Spaghetti
+          </a>
+        </div>
+      </div>
+
+      <!-- Button Kembali dan Selanjutnya -->
+      <div class="flex justify-center items-center mt-10 space-x-4">
+        <!-- Tombol Back -->
+        <div>
+          <a
+            href="../index.html"
+            class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full transition duration-300"
+          >
+            Home
+          </a>
+        </div>
+
+        <!-- Tombol Next -->
+        <div>
+          <a
+            href="../barat/pasta/lasagna.html"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300"
+          >
+            Pasta
+          </a>
+        </div>
       </div>
     </div>
 
@@ -146,72 +188,21 @@
             target="_blank"
             class="text-pink-400 hover:text-pink-600"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M7.75 3h8.5A4.75 4.75 0 0121 7.75v8.5A4.75 4.75 0 0116.25 21h-8.5A4.75 4.75 0 013 16.25v-8.5A4.75 4.75 0 017.75 3z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M16.25 8.75a.75.75 0 100 1.5.75.75 0 000-1.5z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 8.75a3.25 3.25 0 110 6.5 3.25 3.25 0 010-6.5z"
-              />
-            </svg>
+            <i class="fab fa-instagram fa-2x"></i>
           </a>
           <a
-            href="https://www.facebook.com/Nanda F"
+            href="https://wa.me/6289675827491"
             target="_blank"
-            class="text-blue-500 hover:text-blue-700"
+            class="text-green-500 hover:text-green-700"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M18 2h-3a6 6 0 00-6 6v3H6v4h3v8h4v-8h3.293l.707-4H13V8a2 2 0 012-2h3V2z"
-              />
-            </svg>
+            <i class="fab fa-whatsapp fa-2x"></i>
           </a>
           <a
             href="https://www.twitter.com/eajeanlv"
             target="_blank"
             class="text-blue-400 hover:text-blue-600"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M8 12v8H4V4h16v16h-8v-8h-4z"
-              />
-            </svg>
+            <i class="fab fa-twitter fa-2x"></i>
           </a>
         </div>
         <p class="mt-4 text-sm text-gray-400">Dibuat dengan ❤️ oleh Dapurku</p>
