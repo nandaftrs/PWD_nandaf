@@ -1,3 +1,13 @@
+<!-- 
+    * Pemrograman Web Dasar
+    * lat-image.html
+    * Nama : Nanda Fitri Safitriani
+    * NIM : 43230287
+    * Tanggal : 16 Agustus 2024
+    * Program Studi : Sistem Informasi
+ -->
+
+
 # Judul Project
 
 **Deskripsi Singkat Project**
