@@ -33,6 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     echo "<div style='font-family: Arial, sans-serif; text-align: center; margin-top: 50px;'>
             <h1 style='color: #28a745;'>Hasil: $result</h1>
-            <a href='index.html' style='text-decoration: none; color: #fff; background-color: #007bff; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 20px;'>Kembali ke Kalkulator</a>
+            <a href='index.html' style='text-decoration: none; color: #fff; background-color: #007bff;
+            padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 20px;'>Kembali ke Kalkulator</a>
           </div>";
 }

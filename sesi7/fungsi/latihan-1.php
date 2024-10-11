@@ -7,6 +7,8 @@
 </head>
 <body>
     <center>
+
+    <h1>MONEY CHANGER</h1>
         <table border="1" cellpadding="5" cellspacing="0">
             <tr>
                 <th>Mata Uang Asing</th>

@@ -9,7 +9,7 @@
 <center>
     <form method="Post" action="hitung-nilai.php">
     <h1>Daftar Nilai UTS MAHASISWA</h1>
-    <h3>STMIK AMIK BANDUNG</h3>
+    <h3>STMIK IKMI CIREBON</h3>
     <br>
     <table>
         <tr>

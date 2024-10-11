@@ -1,57 +1,88 @@
+<!-- 
+    * Pemrograman Web Dasar
+    * praktikum.php
+    * Nama : Nanda Fitri Safitriani
+    * NIM : 43230287
+    * Tanggal : 30 Agustus 2024
+    * Program Studi : Sistem Informasi
+ -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praktikum Elemen Form</title>
+    <title>Formulir Pendaftaran Siswa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <fieldset>
         <h1>Formulir Pendaftaran Siswa</h1>
-        <form action="" method="post">
-            <div>
-                Nama Calon Siswa : <input type="text" name="nama" size="20">
-            </div>
-            <div>
-                Tempat Tanggal Lahir :
-                <input type="text" name="tempat" size="20">
-                <input type="date" name="ttl" size="20">
-            </div>
-            <div>
-                Agama :
-                <select name="agama">
-                    <option value="islam">Islam</option>
-                    <option value="kristen">Kristen</option>
-                    <option value="buddha">Buddha</option>
-                    <option value="hindu">Hindu</option>
-                    <option value="konghuchu">Konghuchu</option>
-                </select>
-            </div>
-            <div>
-                Alamat :
-                <textarea name="alamat" cols="50" rows="5"></textarea>
-            </div>
-            <div>
-                No. Telp/HP :
-                <input type="text" name="nohp" size="20">
-            </div>
-            <div>
-                Jenis Kelamin :
-                <input type="radio" name="jk" value="pria">Pria 
-                <input type="radio" name="jk" value="wanita">Wanita
-            </div>
-            <div>
-                Hobi :
-                <input type="checkbox" name="hobi1" value="baca">Membaca
-                <input type="checkbox" name="hobi2" value="nulis">Menulis
-                <input type="checkbox" name="hobi3" value="ol">Olahraga
-            </div>
-            <div>
-                Pas Foto :
-                <input type="file" name="pasft" value="browse">
-            </div>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td>Nama Calon Siswa</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama_siswa"></td>
+                </tr>
+                <tr>
+                    <td>Tempat/Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="text" name="tempat_lahir"> <input type="text" name="tanggal_lahir" placeholder="dd / mm / yyyy"></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>:</td>
+                    <td>
+                        <select name="agama">
+                            <option value="Islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Katolik">Katolik</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Lainnya">Lainnya</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea name="alamat" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td>No Telp/Hp</td>
+                    <td>:</td>
+                    <td><input type="text" name="no_telp"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="jenis_kelamin" value="Pria"> Pria
+                        <input type="radio" name="jenis_kelamin" value="Wanita"> Wanita
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobi</td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" name="hobi[]" value="Membaca"> Membaca
+                        <input type="checkbox" name="hobi[]" value="Menulis"> Menulis
+                        <input type="checkbox" name="hobi[]" value="Olahraga"> Olahraga
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pas Foto</td>
+                    <td>:</td>
+                    <td><input type="file" name="pas_foto"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="submit" value="SUBMIT">
+                    </td>
+                </tr>
+            </table>
         </form>
-        <input type="submit" value="SUBMIT">
     </fieldset>
 </body>
 </html>

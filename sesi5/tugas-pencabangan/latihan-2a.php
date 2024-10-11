@@ -1,3 +1,12 @@
+<!-- 
+    * Pemrograman Web Dasar
+    * latihan-2a.php
+    * Nama : Nanda Fitri Safitriani
+    * NIM : 43230287
+    * Tanggal : 6 September 2024
+    * Program Studi : Sistem Informasi
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +21,8 @@
         <form method="post" action="" class="space-y-4">
             <div>
                 <label for="score" class="block text-gray-700 font-medium">Masukkan Nilai Ujian (0-100):</label>
-                <input type="number" id="score" name="score" min="0" max="100" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200">
+                <input type="number" id="score" name="score" min="0" max="100" required class="w-full p-3 
+                border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-200">
             </div>
             <button type="submit" class="w-full bg-green-500 text-white p-3 rounded-lg hover:bg-green-600 transition duration-300">Hitung</button>
         </form>

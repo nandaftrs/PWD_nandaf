@@ -1,3 +1,12 @@
+<!-- 
+    * Pemrograman Web Dasar
+    * bil_ganjil_genap.php
+    * Nama : Nanda Fitri Safitriani
+    * NIM : 43230287
+    * Tanggal : 6 September 2024
+    * Program Studi : Sistem Informasi
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

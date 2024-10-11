@@ -67,7 +67,8 @@
 
       echo "<div style='font-family: Arial, sans-serif; text-align: center; margin-top: 50px;'>
             <h1 style='color: #28a745;'>Hasil: $result</h1>
-            <style='text-decoration: none; color: #fff; background-color: #007bff; padding: 10px 20px; border-radius: 5px; display: inline-block; margin-top: 20px;'></style>
+            <style='text-decoration: none; color: #fff; background-color: #007bff; padding: 10px 20px; 
+            border-radius: 5px; display: inline-block; margin-top: 20px;'></style>
           </div>";
     } ?>
   </div>

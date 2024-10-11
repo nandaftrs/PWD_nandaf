@@ -1,6 +1,6 @@
 <!-- 
     * Pemrograman Web Dasar
-    * menu-restoran.php
+    * hari_dalam_seminggu.php
     * Nama : Nanda Fitri Safitriani
     * NIM : 43230287
     * Tanggal : 6 September 2024
