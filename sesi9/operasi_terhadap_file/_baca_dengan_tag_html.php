@@ -6,5 +6,9 @@
 */ 
 
 <?php 
-$file = fopen("welcome.txt", "r");
-?>
+//? buka file
+$file = fopen("welcome2.txt", "r");
+//? baca file dengan fgetss
+echo fgets($file);
+//? tutup file
+fclose($file);

@@ -6,5 +6,8 @@
 */ 
 
 <?php 
-$file = fopen("welcome.txt", "r");
+//* buka file
+$file = fopen("welcome.txt","r");
+//* tutup file
+fclose($file);
 ?>
