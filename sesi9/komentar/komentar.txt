@@ -1,0 +1,45 @@
+// Ini adalah komentar satu baris
+
+/*
+Ini adalah komentar
+lebih dari satu baris
+*/
+
+/**
+* Fungsi untuk menghitung jumlah total barang
+* dalam keranjang belanja.
+*/
+function hitungTotalBarang() {
+// ... logika perhitungan
+}
+
+/**
+* Fungsi untuk menggabungkan dua string.
+* 
+* @param string $str1 String pertama.
+* @param string $str2 String kedua.
+* @return string Hasil penggabungan kedua string.
+*/
+function gabungString($str1, $str2) {
+// ... logika penggabungan
+}
+
+/**
+* Fungsi untuk memeriksa apakah angka genap.
+* 
+* @param int $angka Angka yang diperiksa.
+* @return bool True jika genap, false jika ganjil.
+*/
+function cekGenap($angka) {
+// ... logika pemeriksaan
+}
+
+/**
+* Prosedur untuk mencetak pesan selamat datang.
+* 
+* @param string $nama Nama pengguna.
+*/
+function sambutPengguna($nama) {
+// Cetak pesan selamat datang
+echo "Selamat datang, $nama!";
+}
