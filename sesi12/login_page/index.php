@@ -28,8 +28,7 @@
             <tr>
                 <td>Username</td>
                 <td>:</td>
-                <td><input type="text" name="username" placeholder="Masukkan
-username"></td>
+                <td><input type="text" name="username" placeholder="Masukkan username"></td>
             </tr>
             <tr>
                 <td>Password</td>
